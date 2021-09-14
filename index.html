@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 4-dars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-light">
+
+    <header>
+        <img src="./img/gerb.png" alt="gerb rasmi">
+    </header>
+
+    <div class="container">
+        <form class="form-control m-auto mt-5 p-3 form-js" method="GET">
+            <div class="mb-4">
+                <label class="form-label">Ismingizni kiriting</label>
+                <input class="form-control bg-light name-js" type="text" placeholder="Palonchi" required>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">DTM raqam</label>
+                <input class="form-control bg-light number-js" type="number" placeholder="12345" required>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">Ball</label>
+                <input class="form-control bg-light ball-js" type="number" min="1" max="170" placeholder="170" required>
+            </div>
+
+            <div class="mb-4">
+                <input class="form-check-input check-js" type="checkbox">
+                <label class="form-check-label bg-light">Tanish-bilish</label>
+            </div>
+
+            <button class="btn btn-info text-white fw-bold result-btn" type="button">Natija bilish</button>
+            <output class="mx-3 fw-bold result-js"></output>
+        </form>
+    </div>
+    
+  
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
